@@ -1,0 +1,14 @@
+[build]
+  publish = "dist/"
+  command = "npx pnpm install --store=node_modules/.pnpm-store && npx pnpm build"
+
+[build.environment]
+  NPM_FLAGS = "--version"
+
+[functions]
+  directory = "dist/functions"
+
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/index"
+  status = 200
