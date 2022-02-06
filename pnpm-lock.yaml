@@ -19,6 +19,8 @@ specifiers:
 
 dependencies:
   node-fetch: 3.2.0
+  solid-app-router: 0.2.1_solid-js@1.3.5
+  solid-js: 1.3.5
   undici: 4.13.0
 
 devDependencies:
@@ -26,11 +28,9 @@ devDependencies:
   '@babel/preset-env': 7.16.11_@babel+core@7.17.0
   autoprefixer: 10.4.2_postcss@8.4.6
   postcss: 8.4.6
-  solid-app-router: 0.2.1_solid-js@1.3.5
-  solid-js: 1.3.5
   solid-meta: 0.27.3_solid-js@1.3.5
   solid-start: 0.1.0-alpha.60_7c8054343603f89e2269004f9b547340
-  solid-start-netlify: 0.1.0-alpha.60_solid-start@0.1.0-alpha.60
+  solid-start-netlify: 0.1.0-v0.1.0-alpha.59.0_solid-start@0.1.0-alpha.60
   solid-start-node: 0.1.0-alpha.60_9b1e91bc426989b6642b3ed0757c1726
   tailwindcss: 3.0.18_833e1018ad0d7954aa80c53675939269
   typescript: 4.5.5
@@ -2810,11 +2810,10 @@ packages:
       solid-js: ^1.3.0
     dependencies:
       solid-js: 1.3.5
-    dev: true
+    dev: false
 
   /solid-js/1.3.5:
     resolution: {integrity: sha512-PUom2cCARfvvgxI7cwOhfXMrZZZxjp+vIrb5fzVNBFyICy8A30wTqExwfUv457eJYgKpii2D3qStW9ILtKnShw==}
-    dev: true
 
   /solid-meta/0.27.3_solid-js@1.3.5:
     resolution: {integrity: sha512-XaVv0EPkoPvufzUOIMn4yOzZFnJvQPVBlpZFLc9zTFTUnb+cq/zuoWr0Sa0fEntodfVPe5j6NfvXwGE6pHQo+w==}
@@ -2839,8 +2838,8 @@ packages:
     resolution: {integrity: sha512-8RZi1R4VwpPK9Fn+ULYonmoMW0fxq+aiiWRk2+3q8C2wgcustPKvfvjjOuGB0DzdUvsfzL1RWscEHqzBOHDl3A==}
     dev: true
 
-  /solid-start-netlify/0.1.0-alpha.60_solid-start@0.1.0-alpha.60:
-    resolution: {integrity: sha512-AgY5RQxLr7+ma1vb9cuY/H5Uv8+YbYMIVj0IKZpBAor0EGKe6l4zxzOUPILhD/tfojoczwT2q/WtQQPoUpmSSA==}
+  /solid-start-netlify/0.1.0-v0.1.0-alpha.59.0_solid-start@0.1.0-alpha.60:
+    resolution: {integrity: sha512-vTLOO1e5XtMJgJljtuh9G5olfCFfLnOujXTdoE4DmSPjkL6lMVdm4/9VLEv//s5AJkQAxWoxlSW8+90tjy/XQQ==}
     peerDependencies:
       solid-start: '*'
     dependencies:
