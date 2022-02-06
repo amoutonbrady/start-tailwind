@@ -1,5 +1,6 @@
 // @refresh reload
 import { Links, Meta, Outlet, Scripts } from "solid-start/components";
+import "./assets/main.css";
 
 export default function Root() {
   return (
