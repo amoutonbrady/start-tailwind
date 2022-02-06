@@ -1,9 +1,6 @@
 [build]
   publish = "dist/"
-  command = "npx pnpm install --store=node_modules/.pnpm-store && npx pnpm build"
-
-[build.environment]
-  NPM_FLAGS = "--version"
+  command = "npm run build"
 
 [functions]
   directory = "dist/functions"
